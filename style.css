@@ -61,7 +61,7 @@ section#apresentacao {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment:fixed ;
+    
     background-blend-mode: darken;
     height: 100%;
 }
@@ -200,7 +200,7 @@ p {
 
     i#infos {
         position: absolute;
-        left: 22%;
+        left: 20%;
         transform: translateX(-10%);
         font-size: 2em;
         color: #d0aa2a;
