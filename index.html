@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmas Hotel - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+    <header>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="celular">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preços</a></li>
+                <li><a href="#">Avaliações</a></li>
+                <li><a href="#">Tour Particular</a></li>
+                <li><a href="#">Nossa História</a></li>
+            </ul>
+        </menu>
+        <img src="images/logo.png" alt="Logo hotel Palmas">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preços</a></li>
+                <li><a href="#">Avaliações</a></li>
+                <li><a href="#">Tour Particular</a></li>
+                <li><a href="#">Nossa História</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="division"></div>
+    <main>
+        <section id="apresentacao">
+            <h1>Palmas Hotel</h1>
+            <h2>Férias em Familia!</h2>
+
+        </section>
+    </main>
+    <script>
+        function clickMenu() {
+            if (celular.style.display == "block") {
+                celular.style.display = 'none'
+            } else {
+                celular.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
