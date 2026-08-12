@@ -127,9 +127,10 @@ menu#celular {
         left: 50%;
         transform: translateX(-50%);
         font-family: var(--font_principal);
-        font-size: 2.4em;
+        font-size: 3.5em;
         color: white;
         text-shadow: 1px 1px 8px black;
+        white-space: nowrap;
     }
 
     h2 {
@@ -137,10 +138,11 @@ menu#celular {
         left: 50%;
         transform: translateX(-50%);
         font-family: var(--font_principal);
-        font-size: 1.6em;
+        font-size: 2.8em;
         color: var(--cor1);
         text-shadow: 1px 1px 8px black;
         margin-top: 80px;
+        white-space: nowrap;
     }
 
 }
