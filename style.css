@@ -294,9 +294,10 @@ div.avaliacao img {
     }
     
     div.avaliacao img {
-        width: 150px;
-        height: 150px;
-        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-bottom: 25px;
     }
 
     i#star {
