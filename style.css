@@ -418,9 +418,9 @@ div.pergunta a {
     }
 
     section#forms-area h1 {
-        font-size: 2.1em;
+        font-size: 1.5em;
         white-space: nowrap;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     div#form input {
@@ -443,7 +443,7 @@ div.pergunta a {
     div.pergunta {
         height: 20px;
         width:70%;
-        padding-right: 40px;
+        padding-right: 20px;
     }
     
     div#form input[type="submit"] {
